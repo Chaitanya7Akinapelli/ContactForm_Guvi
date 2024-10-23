@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <div class = "contact-form">
+        <div class = "left-image">
+            <img src = "Assets/CxqwidpJ-form.webp">
+        </div>
+        <div class = "contact-us">
+            <p style = "font-size: 30px;">Contact Us</p>
+            <p>Let us know your queries, feedbacks and enquiries. We <br>are here to support you 24/7.</p><hr>
+            <div class = "call">
+                <div class = "image">
+                    <img src = "Assets/phone.webp">
+                </div>
+                <div class = "about-image">
+                    <p id = "upper">Give us a call</p>
+                    <p id = "lower">+91 9736097320</p>
+                </div>
+            </div><hr>
+            <div class = "write">
+                <div class = "image">
+                    <img src = "Assets/message.webp">
+                </div>
+                <div class = "about-image">
+                    <p id = "upper">Write to us</p>
+                    <p id = "lower">cs@guvi.in</p>
+                </div>
+            </div><hr>
+            <div class = "visit">
+                <div class = "image">
+                    <img src = "Assets/location.webp">
+                </div>
+                <div class = "about-image">
+                    <p id = "upper">Visit us in Chennai @<br>
+                        <p id = "lower">IITM Research park - phase 2, module <br>#9, 3rd floor, D block, Kanagam Rd,<br>Tharamani, Chennai, Tamil Nadu <br>600113</p>
+                    <p id = "upper">Visit us in Noida @ <br>
+                        <p id = "lower">A11, HCL Corporation Pvt. Ltd, Block A,<br> Sector 3, Noida, Uttar Pradesh 201307</p>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class = "form">
+            <p>Say <span class = "span-class">Hello !</span>
+                <br>
+                Feel free to stop by and say hi !</p>
+            <form>
+                <label for = "name">Name <sup class = "star">*</sup></label>
+                <input type = "text" id = "name" name = "name" required>
+
+                <label for = "e-mail">E-mail id <sup class = "star">*</sup></label>
+                <input type = "email" id = "e-mail" name = "e-mail" required>
+
+                <label for = "contact-number">Contact Number <sup class = "star">*</sup></label>
+                <input type = "number" id = "contact-number" name = "contact-form" required>
+
+                <label for = "subject">Subject <sup class = "star">*</sup></label>
+                <input type = "text" id = "subject" name = "subject" required>
+
+                <label for = "message">Message <sup class = "star">*</sup></label>
+                <textarea id = "message" required></textarea>
+
+                <button type = "submit">Send</button>
+            </form>
+        </div>
+    </div>
+    <script src="dist/validate.js"></script>
+</body>
+</html>
